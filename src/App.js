@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Routes,Switch} from 'react-router-dom'
+import ScrollToTop from "./components/Scroll"
+import AppNav from "./components/AppNav"
+import Footer  from "./components/Footer"
+import  Services  from "./components/Services"
+import AppointmentForm from "./components/AppointmentForm"
+import Home from "./components/Home"
+import WhatsApp from './components/WhatsAp'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App=()=> (
+  <BrowserRouter>
+      <ScrollToTop />
+     <AppNav />
+    
+    <Switch >
+    <Route exact path="/home" component={Home}/>
+    <Route exact path="/services" component={Services}/>
+    <Route exact path="/appointment" component={AppointmentForm}/>
+    </Switch>
+    <WhatsApp />
+    <Footer />
+  
+  </BrowserRouter>
+)
 
 export default App;
+

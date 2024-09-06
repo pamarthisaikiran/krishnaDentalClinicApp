@@ -1,0 +1,28 @@
+/* In your styles.css file */
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+     background-color: #25D366; /* WhatsApp green color */
+     color: white;
+   /* padding: 15px; */
+    border-radius: 200%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    text-align: center;
+    z-index: 1000;
+    height: 65px;
+    width:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .whatsapp-icon:hover {
+    background-color: #128C7E; /* Darker green for hover */
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
