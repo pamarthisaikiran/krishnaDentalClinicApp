@@ -20,7 +20,7 @@ class Fotter extends Component {
                    <div>
                     <h1 className="f-head">About Us</h1>
                     <hr className="h"/>
-                    <p className="f-para">
+                    <p className="about-para">
                     We, Krishna Dental Clinic Services, situated at Machilipatnam, Andhra Pradesh aim to deliver premium dental treatments at affordable rates. 
                     Your perfect smiles are our responsibility and will be provided under utmost comfort and diligence.
                     </p>
@@ -81,7 +81,7 @@ class Fotter extends Component {
                     <h1 className="f-head">Machilipatnam Location</h1>
                     
                     <div>
-                    <iframe className="iframe"
+                    <iframe className="iframe" title="location"
                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30653.16367565296!2d81.12256997318761!3d16.187223654809948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a49e7d47039bde5%3A0xb922d7fff248bf38!2sKrishna%20Dental%20%26%20Cosmetology%20Clinic!5e0!3m2!1sen!2sin!4v1725604268940!5m2!1sen!2sin" 
                      width="600" height="450" style={{ border:"0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -91,7 +91,7 @@ class Fotter extends Component {
                 </div>
                 
                <div className="icon-cont">
-               <h1 className="f-para">© 2024 Krishna Dental Clinic All Rights Reserved </h1>
+               <h1 className="about-para">© 2024 Krishna Dental Clinic All Rights Reserved </h1>
                <div className="social-icons">
       {/* Facebook */}
       <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

@@ -13,6 +13,8 @@ import "./index.css"
 class Home extends Component{
     render(){
         return (
+          
+         
          <div>
           <div >
             <Carousel data-bs-theme="dark">
@@ -537,7 +539,7 @@ class Home extends Component{
             </div>
           </div>
   
-         
+          
         )
     }
 }

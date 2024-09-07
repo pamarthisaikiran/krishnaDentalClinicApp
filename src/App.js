@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes,Switch} from 'react-router-dom'
+import {BrowserRouter, Route,Switch,Redirect} from 'react-router-dom'
 import ScrollToTop from "./components/Scroll"
 import AppNav from "./components/AppNav"
 import Footer  from "./components/Footer"
@@ -10,16 +10,20 @@ import WhatsApp from './components/WhatsAp'
 
 const App=()=> (
   <BrowserRouter>
-      <ScrollToTop />
-     <AppNav />
+      
+      <AppNav />
     
     <Switch >
+    <Route exact path="/" render={() => <Redirect to="/home" />} />
     <Route exact path="/home" component={Home}/>
     <Route exact path="/services" component={Services}/>
     <Route exact path="/appointment" component={AppointmentForm}/>
     </Switch>
-    <WhatsApp />
+    
     <Footer />
+    <WhatsApp />
+
+    <ScrollToTop />
   
   </BrowserRouter>
 )

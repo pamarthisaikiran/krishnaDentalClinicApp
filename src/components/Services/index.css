@@ -143,3 +143,59 @@
     width: 100%;
     
 }
+/* Accordion Container */
+.accordion {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Accordion Header */
+  .accordion-button {
+    background-color: #1F2B6C; /* Primary color */
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Accordion Body */
+  .accordion-body {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    font-size: 1rem;
+  }
+  
+  /* Accordion Item */
+  .accordion-item {
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  
+  .accordion-item:first-of-type {
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Chevron Icon */
+  .accordion-button::after {
+    content: '\f078'; /* FontAwesome chevron down icon */
+    font-family: 'Font Awesome 5 Free'; /* Ensure you have FontAwesome installed */
+    font-weight: 900; /* For solid icons */
+    color: #ffffff;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg); /* Rotate icon when expanded */
+  }
+  
+  

@@ -1,6 +1,5 @@
 
 import {Component} from "react"
-
 import Accordion from 'react-bootstrap/Accordion';
 
 
@@ -95,30 +94,35 @@ class Services extends Component{
                 
                 
             </div>
-            <div>
-            <Accordion defaultActiveKey={['0']} alwaysOpen>
+            <div >
+            <Accordion>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>Do you take insurance?</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        Almost all insurances in India don’t cover dental treatments, so payments should be made upfront. However for Andhra state government employees who have the EHS scheme, they can visit our Machilipatnam Branch clinic for treatments under EHS services.
+
+We would be happy to provide bills as a courtesy, but it is up to the patient to personally claim re-imbursements. We do not cover insurance claims or re-imbursements.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>What are the costs of the services provided in your clinic?</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        Our services depend on a lot of factors ranging from oral health of the patient to density of the bone or tooth structure. Taking into consideration all these factors, we provide a feasible and affordable cost.
+
+Do not worry about the cost, we always provide pocket-friendly and customer-friendly service rates.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>Are dental treatments very painful?</Accordion.Header>
+        <Accordion.Body>
+        Are dental treatments very painful?
+We deliver a Local Anaesthetic solution before any of our treatments, which will numb that particular area, making the treatment a hassle free experience. Post the treatment, after the anaesthesia subsides, there will be a mild post-operative pain which can be managed following the doctor’s instructions. Do not Google your pain and always contact our doctors first before diagnosing your condition on Google websites or WebMD.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="3">
+        <Accordion.Header>Do you accept walk-ins?</Accordion.Header>
+        <Accordion.Body>
+        Yes, Walk-ins are welcome! Our doctor will check and diagnose your ailments and provide the necessary treatment plan. Check with our front desk to confirm appointment availability for same day services.
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

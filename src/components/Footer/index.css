@@ -46,6 +46,16 @@ color: #FCFEFE;
       
       }
 
+  .about-para{
+    color: #FCFEFE;
+   
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    
+    text-align: left;
+  }
+
 .f-para{
     color: #FCFEFE;
    
@@ -54,8 +64,13 @@ font-size: 18px;
 font-weight: 400;
 
 text-align: left;
+transition: color 0.3s ease, transform 0.3s ease;
+text-decoration: none;
+}
 
-
+.f-para:hover{
+  color:White;
+  transform: scale(1.1);
 }
 .li{
     color: #FCFEFE;
@@ -94,7 +109,7 @@ text-align: left;
 @media screen and (max-width:768px){
     .foot-container{
         width: 100%;
-    position: fixed;
+    
     top: 5398px;
     gap: 0px;
     opacity: 0px;
