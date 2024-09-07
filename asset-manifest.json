@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/krishna-dental-app/static/css/main.c9f28c70.css",
+    "main.js": "/krishna-dental-app/static/js/main.02f6569e.js",
+    "static/js/453.a23239ad.chunk.js": "/krishna-dental-app/static/js/453.a23239ad.chunk.js",
+    "static/media/card3home-removebg-preview.png": "/krishna-dental-app/static/media/card3home-removebg-preview.e6bf2159ad28aa4dcdee.png",
+    "static/media/card2home-removebg-preview.png": "/krishna-dental-app/static/media/card2home-removebg-preview.7159d4ed2074622c84fa.png",
+    "static/media/card1home-removebg-preview.png": "/krishna-dental-app/static/media/card1home-removebg-preview.35f673f97d26ca3bedf4.png",
+    "index.html": "/krishna-dental-app/index.html",
+    "main.c9f28c70.css.map": "/krishna-dental-app/static/css/main.c9f28c70.css.map",
+    "main.02f6569e.js.map": "/krishna-dental-app/static/js/main.02f6569e.js.map",
+    "453.a23239ad.chunk.js.map": "/krishna-dental-app/static/js/453.a23239ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9f28c70.css",
+    "static/js/main.02f6569e.js"
+  ]
+}
