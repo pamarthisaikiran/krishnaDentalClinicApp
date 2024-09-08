@@ -225,3 +225,65 @@ h1 {
 .home-cont {
   margin-top: 20px;
 }
+.doc-content{
+  display: flex;
+  padding: 20px 150px;
+ 
+}
+@media screen and (max-width: 768px) {
+  .doc-content{
+    display: flex;
+    flex-direction: column;
+   padding: 0;
+  }
+}
+.doc-text{
+  margin-left: 20px;
+  padding: 10px;
+}
+.doc-qual{
+  font-weight: 500;
+  color: #1f2b6c94 !important;
+  font-size: 22px;
+}
+.doc-name{
+  color: #1f2b6c;
+  font-weight: bold;
+}
+.doc{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.why1{
+  width: 19%;
+  padding:10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+  margin: 5px;
+}
+@media screen and (max-width: 768px) {
+  .why1{
+    width: 100%;
+    padding:10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+  }
+}
+.why-content{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.why-head{
+  font-size:25px
+}
+.why{
+  background-color: #F2F7FE;
+  padding: 40px 10px;
+}
+@media screen and (max-width: 768px) {
+  .doc-image{
+    width: auto;
+  }
+}
