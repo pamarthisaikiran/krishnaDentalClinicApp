@@ -14,26 +14,18 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block imgg"
-                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725630343/istockphoto-1371823816-612x612_s8oiws.jpg"
+                src="https://i.postimg.cc/wjx2Xxnt/sasasa.png"
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h5>First slide label</h5>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
+              
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block  imgg"
-                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725630343/istockphoto-1168002540-612x612_hli5dx.jpg"
+                src="https://i.postimg.cc/4dHh6jJH/Untitled-croped-4.png"
                 alt="Second slide"
               />
-              <Carousel.Caption>
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
+             
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -41,13 +33,7 @@ class Home extends Component {
                 src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725630257/istockphoto-1386515668-612x612_zc2uxo.jpg"
                 alt="Third slide"
               />
-              <Carousel.Caption>
-                <h5>Third slide label</h5>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
+             
             </Carousel.Item>
           </Carousel>
         </div>

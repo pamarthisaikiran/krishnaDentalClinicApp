@@ -9,13 +9,13 @@ class AppNav extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom fixed-top">
         <div className="container-fluid">
-          <div className="img-heading-con">
-            <img
-              src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725543705/istockphoto-1492927296-612x612_inaplp.jpg"
+          
+            <img className='main-logo'
+              src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725806229/Screenshot_2024-09-08_200523-removebg-preview_orjjuy.png"
               alt="logo"
-              style={{width: '40px'}}
+              
             />
-          </div>
+          
 
           <button
             className="navbar-toggler"

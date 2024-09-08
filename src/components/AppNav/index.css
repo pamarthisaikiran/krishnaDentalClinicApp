@@ -300,8 +300,13 @@ body {
 }
 
 .img-heading-con {
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  padding-top: 20px;
+  
+}
+.main-logo{
+ width:100px;
+}
+@media screen and (min-width:768px){
+  .main-logo{
+    width:200px;
+   }
 }
