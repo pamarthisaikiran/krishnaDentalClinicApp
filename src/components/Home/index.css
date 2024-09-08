@@ -1,223 +1,227 @@
+body {
+  font-family: work sans !important;
+}
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 
+.card {
+  background: #bfd2f8;
+  color: #1f2b6c;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #1f2b6c;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #1f2b6c;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+.offer-cards {
+  width: 88%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.offer-cards:hover {
+  width: 88%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background: #bfd2f8;
+  color: #0b2947 !important;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #0b2947;
+}
+
+@media (max-width: 768px) {
   .card {
-    background: #bfd2f8;
-    color: #1f2b6c;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 300px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-top: 4px solid #1f2b6c;
+    width: 100%;
   }
+}
+.testimonials-section {
+  background: #bfd2f8;
+  text-align: center;
+  padding: 50px 20px;
+}
 
-  .card h3 {
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-  }
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1a2238;
+  margin-bottom: 10px;
+}
 
-  .card p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
+.testimonials-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #666;
+}
 
-  .btn {
-    background-color: #1f2b6c;
-    border: 2px solid white;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.3s;
-  }
-  .offer-cards {
-    width: 88%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-  }
-  .offer-cards:hover {
-    width: 88%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    background: #bfd2f8;
-    color: #0b2947 !important;
-  }
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
-  .btn:hover {
-    background-color: white;
-    color: #0b2947;
-  }
+.testimonial {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s;
+}
 
-  @media (max-width: 768px) {
-    .card {
-      width: 100%;
-    }
-  }
-  .testimonials-section {
-    background: #bfd2f8;
-    text-align: center;
-    padding: 50px 20px;
-  }
+.testimonial:hover {
+  transform: translateY(-10px);
+}
 
-  .testimonials-section h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #1a2238;
-    margin-bottom: 10px;
-  }
+.testimonial h4 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
 
-  .testimonials-section p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #666;
-  }
+.testimonial p {
+  font-size: 0.95rem;
+  color: #666;
+}
 
+.testimonial .stars {
+  color: #f0b040;
+  margin-bottom: 10px;
+}
+
+.testimonial:before {
+  content: '“';
+  font-size: 50px;
+  color: #f9c5a3;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  opacity: 0.3;
+}
+
+.appointment-btn {
+  background-color: #14274e;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s;
+}
+
+.appointment-btn:hover {
+  background-color: white;
+  color: #0b2947;
+}
+
+@media (max-width: 768px) {
   .testimonial-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
+}
+h1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.darkblue-font {
+  color: #1f2b6c;
+}
+.card-icon {
+  height: 70px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+}
+.hospital-info {
+  width: 40vw;
+}
+.doc-img {
+  height: 25vh;
+}
+.text-center {
+  text-align: center;
+}
+.serv-card {
+  height: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+.serv-btn {
+  font-size: 16px;
+  border: none;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  text-align: -webkit-center;
+  border-radius: 10px;
+  color: #1f2b6c;
+  fill: #1f2b6c;
+  height: 130px;
+  width: 140px;
+  margin: 10px;
+  cursor: pointer;
+}
+.serv-btn:hover {
+  background: #1f2b6c;
+  color: #fff;
+  fill: #fff;
+  cursor: pointer;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.offer-card-svg {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  display: block;
+}
 
-  .testimonial {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 350px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    transition: transform 0.3s;
-  }
-
-  .testimonial:hover {
-    transform: translateY(-10px);
-  }
-
-  .testimonial h4 {
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-
-  .testimonial p {
-    font-size: 0.95rem;
-    color: #666;
-  }
-
-  .testimonial .stars {
-    color: #f0b040;
-    margin-bottom: 10px;
-  }
-
-  .testimonial:before {
-    content: "“";
-    font-size: 50px;
-    color: #f9c5a3;
-    position: absolute;
-    bottom: 15px;
-    right: 20px;
-    opacity: 0.3;
-  }
-
-  .appointment-btn {
-    background-color: #14274e;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    margin-top: 30px;
-    transition: background-color 0.3s;
-  }
-
-  .appointment-btn:hover {
-    background-color: white;
-    color: #0b2947;
-  }
- 
-
-  @media (max-width: 768px) {
-    .testimonial-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  h1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  .darkblue-font {
-    color: #1f2b6c;
-  }
-  .card-icon {
-    height: 70px;
-  }
-  .about {
-    display: flex;
-    justify-content: center;
-  }
-  .hospital-info {
-    width: 40vw;
-  }
-  .doc-img {
-    height: 25vh;
-  }
-  .text-center {
-    text-align: center;
-  }
-  .serv-card {
-    height: 40px;
-    display: block;
-    margin-bottom: 10px;
-  }
-  .serv-btn {
-    font-size: 16px;
-    border: none;
-    background: #fff;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
-    text-align: -webkit-center;
-    border-radius: 10px;
-    color: #1f2b6c;
-    fill: #1f2b6c;
-    height: 130px;
-    width: 140px;
-    margin: 10px;
-    cursor: pointer;
-  }
-  .serv-btn:hover {
-    background: #1f2b6c;
-    color: #fff;
-    fill: #fff;
-    cursor: pointer;
-  }
-  .btn-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-  }
-  .offer-card-svg {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 10px;
-    display: block;
-  }
-
-
-  .imgg{
-    width:100%;
-    height:400px;
-  }
+.imgg {
+  width: 100%;
+  height: 400px;
+}
+.home-cont {
+  margin-top: 20px;
+}
