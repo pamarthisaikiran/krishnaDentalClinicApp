@@ -48,11 +48,13 @@ const AppointmentForm = () => {
     <div className="ap-con">
       <form className="form" onSubmit={handleSubmit}>
         <h1>Book an Appointment</h1>
+        <div className="appointment-fields">
         <div className="name-con">
           <label htmlFor="name-id">Name</label>
           <div>
             <input
-              placeholder="enter your name"
+              placeholder="Name"
+              className='input-field'
               id="name-id"
               type="text"
               name="name"
@@ -67,7 +69,8 @@ const AppointmentForm = () => {
           <div>
             <input
               id="number-id"
-              placeholder="enter your number"
+              placeholder="Mobile Number"
+               className='input-field'
               type="text"
               name="number"
               value={formData.number}
@@ -81,7 +84,8 @@ const AppointmentForm = () => {
           <div>
             <input
               id="email-id"
-              placeholder="enter your email"
+              placeholder="Email"
+               className='input-field'
               type="email"
               name="email"
               value={formData.email}
@@ -97,6 +101,7 @@ const AppointmentForm = () => {
               id="date-id"
               type="date"
               name="appointmentDate"
+               className='input-field'
               value={formData.appointmentDate}
               onChange={handleChange}
               required
@@ -111,6 +116,7 @@ const AppointmentForm = () => {
               placeholder="time"
               type="time"
               name="appointmentTime"
+               className='input-field'
               value={formData.appointmentTime}
               onChange={handleChange}
               required
@@ -124,10 +130,12 @@ const AppointmentForm = () => {
               id="message-id"
               placeholder="message...."
               name="message"
+               className='input-field'
               value={formData.message}
               onChange={handleChange}
             />
           </div>
+        </div>
         </div>
         <button className="button" type="submit">
           Book Appointment
