@@ -1,0 +1,45 @@
+.doc-content{
+    display: flex;
+    flex-direction: column;
+   padding: 0px;
+  }
+
+.doc-text{
+  margin-left: 20px;
+  padding: 10px;
+}
+.doc-qual{
+  font-weight: 500;
+  color: #1f2b6c94 !important;
+  font-size: 22px;
+}
+.doc-name{
+  color: #1f2b6c;
+  font-weight: bold;
+}
+.doc{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.aboutUs{
+    padding: 30px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.head-about{
+   font-weight: bold; 
+   text-decoration: underline;
+}
+.about-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+.about-img{
+  width:300px;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-right:10px ;
+  border-radius: 10px;
+}

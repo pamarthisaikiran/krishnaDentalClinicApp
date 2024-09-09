@@ -58,7 +58,7 @@ body {
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: white !important;
   color: #0b2947;
 }
 
@@ -230,7 +230,7 @@ h1 {
   padding: 20px 150px;
  
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:992px) {
   .doc-content{
     display: flex;
     flex-direction: column;
@@ -253,6 +253,7 @@ h1 {
 .doc{
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: center;
 }
 .why1{
   width: 19%;
@@ -282,8 +283,12 @@ h1 {
   background-color: #F2F7FE;
   padding: 40px 10px;
 }
-@media screen and (max-width: 768px) {
-  .doc-image{
-    width: auto;
-  }
+.doc-image{
+   width: 350px;
+   height: 300px;
+   border-radius: 20px;
+}
+.con-a{
+text-decoration: none;
+
 }

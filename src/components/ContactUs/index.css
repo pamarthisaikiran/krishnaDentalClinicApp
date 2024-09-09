@@ -1,0 +1,58 @@
+.contact-main{
+    background-image: url("https://res.cloudinary.com/ddbhluguf/image/upload/v1725820807/Screenshot_2024-09-09_000929_rwwsji.png");
+    background-size: cover;
+    height: 600px;
+    padding-top: 100px;
+    opacity:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
+.head-contact{
+   color: #1f2b6c!important;
+   text-align: center;
+   font-weight: bold;
+   opacity: 2;
+   text-decoration: underline;
+}
+
+
+.boxes-contact{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+  }
+
+ 
+  .f-head-contact {
+    font-family: Work sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 41.58px;
+    text-align: left;
+    color: #1f2b6c;
+  }
+
+
+  .contact-para{
+    color: #1f2b6c;
+
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+
+  text-align: left;
+ 
+  }
+
+  .iframe-cont {
+    width: 300px;
+    height: 300px;
+  }

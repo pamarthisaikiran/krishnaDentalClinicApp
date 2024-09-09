@@ -1,178 +1,178 @@
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scroll */
-  }
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+.ser-cont {
+  width: 1366px;
+  height: 250px;
+  top: 160px;
+  gap: 0px;
+  opacity: 2px;
+}
+@media screen and (min-width: 768px) {
   .ser-cont {
-    width: 1366px;
-    height: 250px;
-    top: 160px;
-    gap: 0px;
-    opacity: 2px;
-  }
-  @media screen and (min-width: 768px) {
-    .ser-cont {
-      background-image: url('https://res.cloudinary.com/ddbhluguf/image/upload/v1725609578/service-top_a9pjvs.jpg');
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding-left: 20px;
-    }
-    .head {
-      font-family: work sans;
-      font-size: 48px;
-      font-weight: 400;
-      line-height: 55.44px;
-      text-align: left;
-      color: rgba(31, 43, 108, 1);
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .ser-cont {
-      background-image: url('https://res.cloudinary.com/ddbhluguf/image/upload/v1725610965/FAQs-on-Root-Canal-Treatment-1024x724-1_gbbzdt.jpg');
-      background-size: cover; /* Cover the container on mobile */
-      background-position: center;
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      padding-left: 20px;
-      overflow: hidden;
-    }
-  
-    .head {
-      font-family: work sans;
-      font-size: 48px;
-      font-weight: 400;
-      line-height: 55.44px;
-      text-align: left;
-      color: rgba(31, 43, 108, 1);
-    }
-  }
-  
-  .img {
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-  }
-  
-  .img-container {
+    background-image: url('https://res.cloudinary.com/ddbhluguf/image/upload/v1725609578/service-top_a9pjvs.jpg');
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 20px;
   }
-  
-  .box {
+  .head {
+    font-family: work sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55.44px;
+    text-align: left;
+    color: rgba(31, 43, 108, 1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ser-cont {
+    background-image: url('https://res.cloudinary.com/ddbhluguf/image/upload/v1725610965/FAQs-on-Root-Canal-Treatment-1024x724-1_gbbzdt.jpg');
+    background-size: cover; /* Cover the container on mobile */
+    background-position: center;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    overflow: hidden;
   }
-  
-  @media screen and (min-width: 768px) {
-    .box {
-      padding: 20px;
-    }
-  
-    .li-con {
-      background-color: rgb(181, 189, 239);
-      padding: 15px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-      margin-bottom: 25px;
-    }
+
+  .head {
+    font-family: work sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55.44px;
+    text-align: left;
+    color: rgba(31, 43, 108, 1);
   }
-  
-  @media screen and (max-width: 768px) {
-    .img-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .img {
-      width: 250px;
-      height: 250px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }
-  
-    .box {
-      width: 100%;
-      padding: 25px;
-    }
-  
-    .li-con {
-      background-color: rgb(181, 189, 239);
-      padding: 15px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-      margin-bottom: 25px;
-    }
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    padding: 20px;
   }
-  .ul {
-    list-style-type: none;
-  }
+
   .li-con {
     background-color: rgb(181, 189, 239);
-  
-    width: 100%;
-  }
-  /* Accordion Container */
-  .accordion {
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Accordion Header */
-  .accordion-button {
-    background-color: #1f2b6c; /* Primary color */
-    color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 0;
     padding: 15px;
-    transition: background-color 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
   }
-  
-  .accordion-button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  /* Accordion Body */
-  .accordion-body {
-    background-color: #f8f9fa;
-    color: #333;
-    padding: 20px;
-    font-size: 1rem;
+
+  .img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 15px;
   }
-  
-  /* Accordion Item */
-  .accordion-item {
-    border: 1px solid #ddd;
-    border-top: none;
+
+  .box {
+    width: 100%;
+    padding: 25px;
   }
-  
-  .accordion-item:first-of-type {
-    border-top: 1px solid #ddd;
+
+  .li-con {
+    background-color: rgb(181, 189, 239);
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
   }
-  
-  /* Chevron Icon */
-  .accordion-button::after {
-    content: '\f078'; /* FontAwesome chevron down icon */
-    font-family: 'Font Awesome 5 Free'; /* Ensure you have FontAwesome installed */
-    font-weight: 900; /* For solid icons */
-    color: #ffffff;
-    transition: transform 0.3s ease;
-  }
-  
-  .accordion-button:not(.collapsed)::after {
-    transform: rotate(180deg); /* Rotate icon when expanded */
-  }
-  
-  .service-container {
-    margin-top: 20px;
-  }
-  
+}
+.ul {
+  list-style-type: none;
+}
+.li-con {
+  background-color: rgb(181, 189, 239);
+
+  width: 100%;
+}
+/* Accordion Container */
+.accordion {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion Header */
+.accordion-button {
+  background-color: #1f2b6c; /* Primary color */
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  color: #ffffff;
+}
+
+/* Accordion Body */
+.accordion-body {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+/* Accordion Item */
+.accordion-item {
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.accordion-item:first-of-type {
+  border-top: 1px solid #ddd;
+}
+
+/* Chevron Icon */
+.accordion-button::after {
+  content: '\f078'; /* FontAwesome chevron down icon */
+  font-family: 'Font Awesome 5 Free'; /* Ensure you have FontAwesome installed */
+  font-weight: 900; /* For solid icons */
+  color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg); /* Rotate icon when expanded */
+}
+
+.service-container {
+  margin-top: 20px;
+}

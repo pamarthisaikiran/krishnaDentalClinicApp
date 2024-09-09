@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 const WhatsApp = () => (
   <div>
     <a
-      href="https://wa.me/9347183447"
+      href="https://wa.me/9573080560"
       className="whatsapp-icon"
       target="_blank"
       rel="noopener noreferrer"
