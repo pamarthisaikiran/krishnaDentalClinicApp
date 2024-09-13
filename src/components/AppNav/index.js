@@ -16,7 +16,7 @@ class AppNav extends Component {
               
             />
               {/*<p className='he'>RAMAKRISHNA 
-             <hr />
+             <hr clas/>
              DENTAL CLINIC</p>  */}
           <button
             className="navbar-toggler"

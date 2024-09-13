@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div className="home-cont">
         <div>
-          <Carousel data-bs-theme="dark">
+          <Carousel className='carousel'  data-bs-theme="dark">
             <Carousel.Item>
               <img
                 className="d-block imgg"
