@@ -303,17 +303,36 @@ body {
   
 }
 .main-logo{
-  width: 100px;
+ 
+  width:100px;
+ background-color: #ffffff;
+ border-radius:50px;
 }
 @media screen and (min-width:768px){
   .main-logo{
-    width: 180px;
+    width:200px;
+    background-color: #ffffff;
+    border-radius:50px;
+   
+   
    
    }
+   .he{
+    margin-left: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: work sans!important;
+    margin-top: 10px;
+  }
 }
 .he{
   margin-left: 15px;
-  font-weight: bold;
+  font-weight: 600;
   color: white;
   font-family: work sans!important;
+  font-size: 25px;
+  margin-top: 20px;
+ 
+ 
 }
+

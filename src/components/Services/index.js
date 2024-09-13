@@ -11,7 +11,7 @@ class Services extends Component {
           <h1 className="head">Treatments</h1>
         </div>
         <div className="box">
-          <div className="li-con">
+          {/*<div className="li-con">
             <h1>Cosmetic Dentistry</h1>
             <p>
               If you are worried about your smile because of bad alignment,
@@ -37,7 +37,7 @@ class Services extends Component {
                 src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725610196/mob-service-png_byuipd.png"
               />
             </div>
-          </div>
+          </div> */}
 
           <div className="li-con">
             <h1>Dental Implants</h1>
@@ -59,6 +59,29 @@ class Services extends Component {
                 className="img"
                 alt="img"
                 src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725618126/723ebb64-9c2d-421a-8c30-d8e6b6b492dd_eb1b38.jpg"
+              />
+            </div>
+          </div>
+          <div className="li-con">
+            <h1>Root Canal Treatment</h1>
+            <p>
+              Are you suffering from severe pain while eating or sleeping ,
+              Relieve the pain with our professional root canal treatments in a
+              few minutes at minimal rates. Our dentist will remove the infected
+              parts of your tooth and fill it with medicated materials, giving
+              you an immediate relief. Consult our dentist for a healthy and
+              pain-free root canal procedure.
+            </p>
+            <div className="img-container">
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725619331/Root-Canal-Treatment_bg8k4q.jpg"
+              />
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725619330/root_ysrg2k.jpg"
               />
             </div>
           </div>
@@ -86,13 +109,9 @@ class Services extends Component {
           </div>
 
           <div className="li-con">
-            <h1>Dental Bridges</h1>
+            <h1>Dental Bridges & Crowns</h1>
             <p>
-              If you are afraid of dental drills and titanium screws, but still
-              require teeth replacements, opt for dental bridges which come in
-              all shades of white. Modern materials like Zirconium, Ceramic,
-              Metal ceramic, Emax are used to provide strong biting and chewing
-              functions along with top quality aesthetics.
+            Enhance your smile and restore dental function with our expert dental bridges and crowns! Dental bridges fill gaps left by missing teeth, while crowns cover and protect damaged or weakened teeth, providing a natural and durable solution. Our custom-crafted bridges and crowns are designed to blend seamlessly with your existing teeth, offering both aesthetic and functional benefits. Trust us to deliver high-quality restorations that improve your smile and boost your confidence.
             </p>
             <div className="img-container">
               <img
@@ -109,7 +128,7 @@ class Services extends Component {
           </div>
 
           <div className="li-con">
-            <h1>Aligners</h1>
+            <h1>Clear Aligners</h1>
             <p>
               Persistence, Patience and Perfection is the hallmark of our dental
               treatments. Clear Aligners or Invisible Braces are the latest
@@ -135,27 +154,157 @@ class Services extends Component {
               />
             </div>
           </div>
+          
           <div className="li-con">
-            <h1>Root Canal Treatment</h1>
+            <h1>Teeth Braces</h1>
             <p>
-              Are you suffering from severe pain while eating or sleeping ,
-              Relieve the pain with our professional root canal treatments in a
-              few minutes at minimal rates. Our dentist will remove the infected
-              parts of your tooth and fill it with medicated materials, giving
-              you an immediate relief. Consult our dentist for a healthy and
-              pain-free root canal procedure.
+            Transform your smile with our state-of-the-art teeth braces! Whether you're dealing
+             with crooked teeth, gaps, or bite issues, our braces are designed to align your teeth
+              perfectly and enhance your smile. Using the latest orthodontic technology, we offer
+               a comfortable and effective solution for a straighter, healthier smile. Experience the 
+               confidence of a beautifully aligned smile and improved dental health with our expert braces treatment.
             </p>
             <div className="img-container">
               <img
                 className="img"
                 alt="img"
-                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725619331/Root-Canal-Treatment_bg8k4q.jpg"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726226766/ing_19047_01455_xnjme0.jpg"
               />
               <img
                 className="img"
                 alt="img"
-                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725619330/root_ysrg2k.jpg"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726226766/braces_tsc2na.jpg"
               />
+            </div>
+          </div>
+          <div className="li-con">
+            <h1>Teeth Cleaning</h1>
+            <p>
+            Experience a professional teeth cleaning that leaves your smile fresh and bright!
+             Our expert dental hygienists gently remove plaque, tartar, and stains, ensuring your
+              teeth are healthy and sparkling. Regular cleanings not only enhance your smile but also 
+              prevent cavities and gum disease. Keep your teeth looking their best with our thorough and 
+              comfortable cleaning services, recommended every six months for lasting oral health.
+            </p>
+            <div className="img-container">
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726227342/faqs-regular-dental-cleanings_breqjs.jpg"
+              />
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726227262/9a1060_c43adc1c5146496fa6a0ef01fa8ea31a_mv2_owelxu.jpg"
+              />
+               <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726227261/teeth-cleaning-in-ottawa-on-blog-by-Parkdale-Dental-Centre_y6lgzj.jpg"
+              />
+            </div>
+          </div>
+          <div className="li-con">
+            <h1>Smile Designing</h1>
+            <p>
+            Unveil your perfect smile with our personalized smile designing services! 
+            Our expert team combines artistry and advanced technology to create a customized treatment plan that 
+            enhances your unique features. From reshaping teeth and adjusting proportions to brightening your smile, 
+            we tailor every detail to achieve a look you’ll love.
+             Discover the confidence of a radiant, flawless smile with our bespoke smile designing solutions.
+            </p>
+            <div className="img-container">
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726227672/digital-smile-design_h6hnux.jpg"
+              />
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726227672/5edef7901c9b91a1e39d190f_DSDPlanning1_rosbte.jpg"
+              />
+              
+            </div>
+          </div>
+          <div className="li-con">
+            <h1>Teeth Extraction</h1>
+            <p>
+            When a tooth can’t be saved, our professional team provides gentle and
+             precise teeth extraction services to ensure your comfort and well-being.
+              Whether due to severe decay, damage, or overcrowding, we handle each extraction with care,
+               using advanced techniques to minimize discomfort and promote swift healing. 
+               Trust us to guide you through the process and discuss the best options for your dental health and future smile.</p>
+            <div className="img-container">
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726228119/tooth-extraction-healing_syesd2.jpg"
+              />
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726228118/Tooth-Extraction-5_wy0ioi.jpg"
+              />
+              
+            </div>
+          </div>
+          <div className="li-con">
+            <h1>Gum Surgery</h1>
+            <p>
+            Revitalize your oral health with our expert gum surgery services! Designed to address issues like gum disease, recession, and other periodontal conditions, our advanced procedures aim to restore your gum health and enhance the stability of your teeth. Our skilled team uses cutting-edge techniques to ensure a comfortable experience and effective results, helping you achieve healthier gums and a more confident smile. Trust us for compassionate care and a comprehensive approach to your gum health.</p>
+            <div className="img-container">
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726228581/dis-eti-ameliyati-hakkinda-merak-edilenler-1_zhymum.jpg"
+              />
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726228453/laser-gum-procedure_slxji6.jpg"
+              />
+              
+            </div>
+          </div>
+          <div className="li-con">
+            <h1>Teeth Filling</h1>
+            <p>
+            Restore the strength and appearance of your teeth with our high-quality teeth filling services! Whether dealing with cavities, cracks, or wear, our expert team uses durable, natural-looking materials to seamlessly repair and protect your teeth. We prioritize your comfort and ensure a precise, long-lasting solution that blends perfectly with your natural smile. Keep your teeth healthy and functional with our professional filling treatments.  
+            </p>
+             <div className="img-container">
+             
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726228925/Teeth-Fillings_dm8ekr.jpg"
+              />
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726228923/images_idito8.jpg"
+              />
+              
+            </div>
+          </div>
+          <div className="li-con">
+            <h1>Dentures</h1>
+            <p>
+            Rediscover the joy of a complete, confident smile with our custom dentures! Designed to replace missing teeth, our dentures provide a comfortable, natural-looking solution that restores both function and aesthetics. Crafted with precision to fit your unique oral structure, our dentures enhance your ability to eat, speak, and smile with ease. Experience the benefits of expertly fitted dentures and enjoy a renewed sense of confidence and comfort.
+            </p>
+             <div className="img-container">
+             
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726229267/Dentures-1_yh0f8z.png"
+              />
+              <img
+                className="img"
+                alt="img"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726229187/Permanent-Dentures_h9mvyp.jpg"
+              />
+              
             </div>
           </div>
         </div>

@@ -42,17 +42,6 @@ class Footer extends Component {
                         className="font-ic"
                         icon={faArrowRight}
                       />
-                      <p className="f-para">Cosmetic Dentistry</p>
-                    </div>
-                  </li>
-                </Link>
-                <Link to="/services">
-                  <li className="li">
-                    <div className="li-cont">
-                      <FontAwesomeIcon
-                        className="font-ic"
-                        icon={faArrowRight}
-                      />
                       <p className="f-para">Dental Implants</p>
                     </div>
                   </li>
@@ -64,7 +53,7 @@ class Footer extends Component {
                         className="font-ic"
                         icon={faArrowRight}
                       />
-                      <p className="f-para">Dental Bridgesy</p>
+                      <p className="f-para">Root Canal Treatment</p>
                     </div>
                   </li>
                 </Link>
@@ -75,7 +64,18 @@ class Footer extends Component {
                         className="font-ic"
                         icon={faArrowRight}
                       />
-                      <p className="f-para">Teeth Whiteningy</p>
+                      <p className="f-para">Teeth Whitening</p>
+                    </div>
+                  </li>
+                </Link>
+                <Link to="/services">
+                  <li className="li">
+                    <div className="li-cont">
+                      <FontAwesomeIcon
+                        className="font-ic"
+                        icon={faArrowRight}
+                      />
+                      <p className="f-para">Dental Bridges & Crowns</p>
                     </div>
                   </li>
                 </Link>
@@ -98,10 +98,55 @@ class Footer extends Component {
                         className="font-ic"
                         icon={faArrowRight}
                       />
-                      <p className="f-para">Root Canal</p>
+                      <p className="f-para">Teeth Braces</p>
                     </div>
                   </li>{' '}
                 </Link>
+                <Link to="/services">
+                  <li className="li">
+                    <div className="li-cont">
+                      <FontAwesomeIcon
+                        className="font-ic"
+                        icon={faArrowRight}
+                      />
+                      <p className="f-para">Teeth Extraction</p>
+                    </div>
+                  </li>{' '}
+                </Link>
+                <Link to="/services">
+                  <li className="li">
+                    <div className="li-cont">
+                      <FontAwesomeIcon
+                        className="font-ic"
+                        icon={faArrowRight}
+                      />
+                      <p className="f-para">Gum Surgery</p>
+                    </div>
+                  </li>{' '}
+                </Link>
+                <Link to="/services">
+                  <li className="li">
+                    <div className="li-cont">
+                      <FontAwesomeIcon
+                        className="font-ic"
+                        icon={faArrowRight}
+                      />
+                      <p className="f-para">Teeth Filling</p>
+                    </div>
+                  </li>{' '}
+                </Link>
+                <Link to="/services">
+                  <li className="li">
+                    <div className="li-cont">
+                      <FontAwesomeIcon
+                        className="font-ic"
+                        icon={faArrowRight}
+                      />
+                      <p className="f-para">Dentures</p>
+                    </div>
+                  </li>{' '}
+                </Link>
+               
               </ul>
             </div>
           </div>
@@ -173,7 +218,7 @@ class Footer extends Component {
 
             {/* Instagram */}
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/ramakrishna_dental_clinic/"
               target="_blank"
               rel="noopener noreferrer"
             >

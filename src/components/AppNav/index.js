@@ -11,11 +11,13 @@ class AppNav extends Component {
         <div className="container-fluid">
           
             <img className='main-logo'
-              src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726220922/Screenshot_2024-09-13_151755_ranadn.png"
+              src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726232948/Screenshot_2024-09-13_183827_exzxlr.png"
               alt="logo"
               
             />
-         
+              {/*<p className='he'>RAMAKRISHNA 
+             <hr />
+             DENTAL CLINIC</p>  */}
           <button
             className="navbar-toggler"
             type="button"
