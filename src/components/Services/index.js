@@ -8,7 +8,7 @@ class Services extends Component {
     return (
       <div className="service-container">
         <div className="ser-cont">
-          <h1 className="head">Services</h1>
+          <h1 className="head">Treatments</h1>
         </div>
         <div className="box">
           <div className="li-con">
@@ -42,8 +42,7 @@ class Services extends Component {
           <div className="li-con">
             <h1>Dental Implants</h1>
             <p>
-              Have you lost your teeth due to gross decay, a bad fall or because
-              of a cinematic punch to the face? Try our latest Dental implants
+              Have you lost your teeth due to gross decay, a bad fall ? Try our latest Dental implants
               which are the best replacements for natural teeth and affordable.
               Our expert surgeon will painlessly place a Dental Implant in the
               jaw, and place the perfect crown over it. The best part is you
@@ -67,7 +66,7 @@ class Services extends Component {
             <h1>Teeth Whitening</h1>
             <p>
               No one prefers a yellow smile. Select our Tooth whitening
-              procedures for a perfect and bedazzled smile to boost your
+              procedures for a perfect  smile to boost your
               confidence. The procedure is an effective and proven method of
               lightening the natural colour of your teeth without removing any
               of the tooth surface.

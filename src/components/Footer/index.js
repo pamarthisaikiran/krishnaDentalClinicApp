@@ -31,7 +31,7 @@ class Footer extends Component {
           </div>
           <div className="boxes">
             <div>
-              <h1 className="f-head">Services</h1>
+              <h1 className="f-head">Treatments</h1>
 
               <hr className="h" />
               <ul className="ui">

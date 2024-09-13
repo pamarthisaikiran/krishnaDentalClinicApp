@@ -303,10 +303,17 @@ body {
   
 }
 .main-logo{
- width:100px;
+  width: 100px;
 }
 @media screen and (min-width:768px){
   .main-logo{
-    width:200px;
+    width: 180px;
+   
    }
+}
+.he{
+  margin-left: 15px;
+  font-weight: bold;
+  color: white;
+  font-family: work sans!important;
 }

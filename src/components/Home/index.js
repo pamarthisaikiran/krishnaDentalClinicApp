@@ -14,14 +14,14 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block imgg"
-                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725822752/RvW60wrVqVuERdvOjZN6dTbV3UO7phadGHd8nItr_z4aumc.png"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726205926/WhatsApp_Image_2024-09-13_at_11.05.59_AM_weop5k.jpg"
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block  imgg"
-                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725823605/360_F_639508584_4U535B7A4L7EiNzB0Acy3dLzD7SaZRHG_vawyox.jpg"
+                src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726218457/WhatsApp_Image_2024-09-13_at_11.09.32_AM_s2ytrc.jpg"
                 alt="Second slide"
               />
             </Carousel.Item>
@@ -36,7 +36,7 @@ class Home extends Component {
         </div>
 
         <div className="doc">
-          <h1 className="text-center">Meet Your Dentist</h1>
+          <h1 className="text-center">Meet Our Expert</h1>
           <div className="doc-content">
             <div className="text-center">
               <img
@@ -46,12 +46,15 @@ class Home extends Component {
               />
             </div>
             <div className="doc-text">
-              <h1>Chief Dentist</h1>
-              <h1 className="doc-name">
-                Dr. Rama Krishna <span className="doc-qual">MDS, BDS</span>
+            <h1>Chief Dentist</h1>
+              <h1 className='doc-name'>
+                Dr.S. Ramakrishna <span className='doc-qual'>BDS,L.I.F.E,fellowship in Implantology</span>
               </h1>
               <p>
-                Welcome to RamaKrishna Dental, where innovation meets expertise.
+              Welcome to Ramakrishna Dental. We have 5 years of experience in the field of dentistry. We provide dental treatments and services ranging from Teeth Cleaning, Teeth Filling, Root Canal Treatment, Smile Designing, Dental Crowns and Bridges, Extractions, Teeth Whitening, Braces, Clear Aligners, Dentures, and Dental Implants.
+Our professional staff provides a friendly and safe environment for patients.
+We aim to deliver premium dental treatments at affordable rates. Your perfect smiles are our responsibility, and they will be provided with utmost comfort and diligence.
+                 {/*where innovation meets expertise.
                 I'm Dr. Rama Krishna, leading a cutting-edge clinic specializing
                 in Conservative Dentistry and Endodontics. With a passion for
                 research-driven, evidence-based practices and a focus on
@@ -59,7 +62,7 @@ class Home extends Component {
                 state-of-the-art care. Recognized for my contributions to
                 dentistry, I strive to offer the best services, ensuring each
                 patient receives the highest quality treatment in a hygienic
-                environment.
+                environment. */}
               </p>
             </div>
           </div>
@@ -121,11 +124,11 @@ class Home extends Component {
 
                 <h3>Opening Hours</h3>
                 <p>
-                  Mon - Fri 10:00am - 08:00pm
+                  Mon - Sat 09:00am - 09:00pm
                   <br />
-                  Saturday 10:00am - 08:00pm
+                  Saturday 09:00am - 09:00pm
                   <br />
-                  Sunday 10:00am - 08:00pm
+                  Sunday 10:00am - 01:00pm
                 </p>
                 <Link to="/contact">
                   {' '}
@@ -168,7 +171,7 @@ class Home extends Component {
                 <p>
                   9573080560, 9666818973
                   <br />
-                  ramakrishnadental@gmail.com
+                  drramakrishna2k18@gmail.com
                   <br />
                   Machilipatnam
                 </p>
@@ -188,7 +191,7 @@ class Home extends Component {
               </div>
             </div>
             <div>
-              <h1 className="darkblue-font text-center">What We offer</h1>
+              <h1 className="darkblue-font text-center">Treatments offered</h1>
               <div className="btn-container">
                 <Link to="/services">
                   <button type="button" className="serv-btn">
@@ -635,13 +638,17 @@ class Home extends Component {
                   </p>
                   <h4>Sirisha Sri</h4>
                 </div>
-              </div>
-
+                <div className="testimonial">
+                <p>Be assured that you will be consulting one of the top dentists in Machilipatnam at Ramakrishna Dental.</p>
+                <p>Dental Problems? We can help you ...</p>
               <Link to="/appointment">
                 <button type="button" className="appointment-btn">
                   Book an appointment today
                 </button>
               </Link>
+              </div>
+              </div>
+             
             </section>
           </div>
         </div>

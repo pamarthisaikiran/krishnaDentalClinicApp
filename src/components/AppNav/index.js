@@ -7,16 +7,15 @@ import './index.css'
 class AppNav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom ">
         <div className="container-fluid">
           
             <img className='main-logo'
-              src="https://res.cloudinary.com/ddbhluguf/image/upload/v1725806229/Screenshot_2024-09-08_200523-removebg-preview_orjjuy.png"
+              src="https://res.cloudinary.com/ddbhluguf/image/upload/v1726220922/Screenshot_2024-09-13_151755_ranadn.png"
               alt="logo"
               
             />
-          
-
+         
           <button
             className="navbar-toggler"
             type="button"

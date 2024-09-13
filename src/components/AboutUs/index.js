@@ -20,10 +20,13 @@ class AboutUs extends Component {
             <div className='doc-text'>
               <h1>Chief Dentist</h1>
               <h1 className='doc-name'>
-                Dr. Rama Krishna <span className='doc-qual'>MDS, BDS</span>
+                Dr.S. Ramakrishna Managing Director & Chief Dentist <span className='doc-qual'>MDS, BDS</span>
               </h1>
               <p>
-                Welcome to RamaKrishna Dental, where innovation meets expertise.
+              Welcome to Ramakrishna Dental. We have 5 years of experience in the field of dentistry. We provide dental treatments and services ranging from Teeth Cleaning, Teeth Filling, Root Canal Treatment, Smile Designing, Dental Crowns and Bridges, Extractions, Teeth Whitening, Braces, Clear Aligners, Dentures, and Dental Implants.
+Our professional staff provides a friendly and safe environment for patients.
+We aim to deliver premium dental treatments at affordable rates. Your perfect smiles are our responsibility, and they will be provided with utmost comfort and diligence.
+                 {/*where innovation meets expertise.
                 I'm Dr. Rama Krishna, leading a cutting-edge clinic specializing
                 in Conservative Dentistry and Endodontics. With a passion for
                 research-driven, evidence-based practices and a focus on
@@ -31,7 +34,7 @@ class AboutUs extends Component {
                 state-of-the-art care. Recognized for my contributions to
                 dentistry, I strive to offer the best services, ensuring each
                 patient receives the highest quality treatment in a hygienic
-                environment.
+                environment. */}
               </p>
             </div>
             

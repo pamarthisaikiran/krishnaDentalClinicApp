@@ -140,7 +140,7 @@ body {
   border: none;
   border-radius: 25px;
   cursor: pointer;
-  margin-top: 30px;
+  
   transition: background-color 0.3s;
 }
 
@@ -223,7 +223,7 @@ h1 {
   height: 400px;
 }
 .home-cont {
-  margin-top: 20px;
+  
 }
 .doc-content{
   display: flex;
@@ -261,6 +261,7 @@ h1 {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 12px;
   margin: 5px;
+  background: #bfd2f8;
 }
 @media screen and (max-width: 768px) {
   .why1{
@@ -269,6 +270,7 @@ h1 {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 12px;
     margin-bottom: 5px;
+    background: #bfd2f8;
   }
 }
 .why-content{
@@ -291,4 +293,9 @@ h1 {
 .con-a{
 text-decoration: none;
 
+}
+.ap-btn-container{
+  background-color: #F2F7FE;
+  padding: 30px;
+  width: 500px;
 }
