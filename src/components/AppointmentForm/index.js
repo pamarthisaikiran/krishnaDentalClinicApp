@@ -47,7 +47,7 @@ const AppointmentForm = () => {
   return (
     <div className="ap-con">
       <form className="form" onSubmit={handleSubmit}>
-        <h1>Book an Appointment</h1>
+        <h1 className='appointment-title'>Book an Appointment</h1>
         <div className="appointment-fields">
         <div className="name-con">
           <label htmlFor="name-id">Name</label>

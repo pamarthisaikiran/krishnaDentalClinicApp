@@ -20,8 +20,8 @@ class AboutUs extends Component {
             <div className='doc-text'>
               <h1>Chief Dentist</h1>
               <h1 className='doc-name'>
-                Dr.S. Ramakrishna Managing Director & Chief Dentist <span className='doc-qual'>MDS, BDS</span>
-              </h1>
+                Dr.S. Ramakrishna Managing Director & Chief Dentist  </h1>
+              <p className='doc-qual'>BDS, L.I.F.E, fellowship in Implantology</p>
               <p>
               Welcome to Ramakrishna Dental. We have 5 years of experience in the field of dentistry. We provide dental treatments and services ranging from Teeth Cleaning, Teeth Filling, Root Canal Treatment, Smile Designing, Dental Crowns and Bridges, Extractions, Teeth Whitening, Braces, Clear Aligners, Dentures, and Dental Implants.
 Our professional staff provides a friendly and safe environment for patients.

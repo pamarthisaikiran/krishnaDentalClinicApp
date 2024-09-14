@@ -1,16 +1,19 @@
 .contact-main{
     background-image: url("https://res.cloudinary.com/ddbhluguf/image/upload/v1725820807/Screenshot_2024-09-09_000929_rwwsji.png");
     background-size: cover;
-    height: 600px;
+    height: 580px;
     padding-top: 10px;
     opacity:1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-
+    /* height: 70vh; */
 }
-
+@media screen and (max-width: 768px) {
+  .contact-main{
+  height: 650px;
+  }
+}
 
 
 .head-contact{
@@ -35,7 +38,7 @@
     font-family: Work sans;
     font-size: 24px;
     font-weight: 600;
-    line-height: 41.58px;
+    /* line-height: 41.58px; */
     text-align: left;
     color: #1f2b6c;
   }
@@ -53,6 +56,28 @@
   }
 
   .iframe-cont {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 320px;
+  }
+  @media screen and (max-width: 768px) {
+    .iframe-cont {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .contact-content{
+    display: flex;
+    width: 65vw;
+    align-items: center;
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    .contact-content{
+      flex-direction: column;
+      margin-top: 10px;
+      width: 75vw;
+    }
+  }
+  .contact-text{
+    margin-right: 20px;
   }
