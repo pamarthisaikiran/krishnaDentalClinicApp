@@ -17,10 +17,10 @@ const AppointmentForm = () => {
 
     emailjs
       .send(
-        'service_m12hao8',
-        'template_23nckya',
+        'service_0ae52jn',
+        'template_bgcy51q',
         formData,
-        '9fbEVKopibwg_xike',
+        '0NU6JfchdFDM348DG',
       )
       .then(
         result => {
