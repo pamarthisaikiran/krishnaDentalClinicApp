@@ -13,8 +13,8 @@ class CountactUs extends Component {
               <div className="contact-text">
                 <h1 className="f-head-contact">Machilipatnam Location</h1>
                 <p className="contact-para">
-                  Chalarasta center, Gandhi bomma-Shivalayam Street ,Near
-                  Nagamani eye hospital ,Machilipatnam-521001 contact numbers:
+                  Chalarasta center, Gandhi bomma-Shivalayam Street, Near
+                  Nagamani eye hospital, Machilipatnam-521001 contact numbers:
                   9573080560, 9666818973
                 </p>
               </div>
