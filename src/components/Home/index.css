@@ -259,6 +259,12 @@ h1 {
   width: 100%;
   height: 400px;
 }
+@media only screen and (max-width: 576px) {
+  .imgg {
+    /* width: 100%; */
+    height: 200px;
+  }
+}
 
 .doc-content{
   display: flex;
